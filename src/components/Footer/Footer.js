@@ -5,10 +5,10 @@ const Footer = () => {
     return (
         <footer>
             <Row>
-                <Col className="text-center"><i class="fa fa-envelope " aria-hidden="true"></i></Col>
-                <Col className="text-center"><i class="fa fa-phone" aria-hidden="true"></i></Col>
-                <Col className="text-center"><i class="fa fa-github " aria-hidden="true"></i></Col>
-                <Col className="text-center"><i class="fa fa-linkedin-square " aria-hidden="true"></i></Col>
+                <Col className="text-center"><i className="fa fa-envelope " aria-hidden="true"></i></Col>
+                <Col className="text-center"><i className="fa fa-phone" aria-hidden="true"></i></Col>
+                <Col className="text-center"><i className="fa fa-github " aria-hidden="true"></i></Col>
+                <Col className="text-center"><i className="fa fa-linkedin-square " aria-hidden="true"></i></Col>
             </Row>
             <Row>
                 <Col className="text-center">Email</Col>

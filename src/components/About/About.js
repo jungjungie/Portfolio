@@ -10,7 +10,7 @@ function About() {
                 </Row>
                 <Row>
                     <Col xs="4">
-                        <img src="../../../public/images/profilesnap.png" alt="profile" className="image-fluid mr-md-4 mb-4 rounded shadow-sm float-md-left"/>
+                        <img src="images/profilesnap.png" alt="profile" className="image-fluid mr-md-4 mb-4 rounded shadow-sm float-md-left"/>
                     </Col>
                     <Col>
                         <p>Hello! My name is Esther Min.</p>

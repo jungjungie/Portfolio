@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Sushi Eater",
+        "description": "An app that allows users to input the names of sushi they want to eat and then eat it.",
+        "tech": "Node.js, Heroku, Express, Express-handlebars, MySQL, jQuery, Bootstrap",
+        "date": "July 2020",
+        "gh-url": "https://github.com/jungjungie/Sushi-Eater",
+        "deployed-url": "https://jungjungie-sushi-eater.herokuapp.com/",
+        "image": "images"
+    },
+    {
+        "id": 2,
+        "title": "Abacus",
+        "description": "An app designed to help teachers manage their class grades and assignments.",
+        "tech": "Passport, Node.js, Heroku, Express, Express-handlebars, MySQL, Sequelize, jQuery, Bootstrap",
+        "date": "July 2020",
+        "gh-url": "https://github.com/jungjungie/Abacus",
+        "deployed-url": "https://em-abacus.herokuapp.com/",
+        "image": ""
+    }
+]

@@ -1,22 +1,62 @@
 [
     {
-        "id": 1,
+        "id": 6,
         "title": "Sushi Eater",
         "description": "An app that allows users to input the names of sushi they want to eat and then eat it.",
         "tech": "Node.js, Heroku, Express, Express-handlebars, MySQL, jQuery, Bootstrap",
         "date": "July 2020",
         "gh-url": "https://github.com/jungjungie/Sushi-Eater",
         "deployed-url": "https://jungjungie-sushi-eater.herokuapp.com/",
-        "image": "images"
+        "image": "images/sushieater.jpg"
     },
     {
-        "id": 2,
+        "id": 5,
         "title": "Abacus",
         "description": "An app designed to help teachers manage their class grades and assignments.",
         "tech": "Passport, Node.js, Heroku, Express, Express-handlebars, MySQL, Sequelize, jQuery, Bootstrap",
         "date": "July 2020",
         "gh-url": "https://github.com/jungjungie/Abacus",
         "deployed-url": "https://em-abacus.herokuapp.com/",
-        "image": ""
+        "image": "images/abacus.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Covid-19 Test Center Locator",
+        "description": "A covid-19 test center locator that searches by state.",
+        "tech": "HTML, UI Kit, JavaScript, jQuery, AJAX, Chart.js, Google Maps API",
+        "date": "June 2020",
+        "gh-url": "https://github.com/jungjungie/COVID-19-Test-Center-Locator",
+        "deployed-url": "https://jungjungie.github.io/COVID-19-Test-Center-Locator/",
+        "image": "images/covid19.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Code Quiz",
+        "description": "A timed multiple-choice quiz on JavaScript fundamentals.",
+        "tech": "HTML, CSS, JavaScript",
+        "date": "June 2020",
+        "gh-url": "https://github.com/jungjungie/Code-Quiz",
+        "deployed-url": "https://jungjungie.github.io/Code-Quiz/",
+        "image": "images/codequiz2.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Weather Dashboard",
+        "description": "An application that allows users to look up the weather in multiple cities.",
+        "tech": "HTML, Bootstrap, CSS, jQuery, AJAX",
+        "date": "June 2020",
+        "gh-url": "https://github.com/jungjungie/Weather-Dashboard",
+        "deployed-url": "https://jungjungie.github.io/Weather-Dashboard/",
+        "image": "images/weather.jpg"
+    },
+    {
+        "id": 1,
+        "title": "Work Day Planner",
+        "description": "A calendar application that allows users to save events for each hour of the day.",
+        "tech": "HTML, CSS, jQuery, Moment.js",
+        "date": "June 2020",
+        "gh-url": "https://github.com/jungjungie/Day-Planner",
+        "deployed-url": "https://jungjungie.github.io/Day-Planner/",
+        "image": "images/dayplanner2.jpg"
     }
 ]

@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import NavBar from '../NavBar/NavBar';
+import { Route } from "react-router-dom";
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav } from 'reactstrap';
 import './Header.css';
 
-function Header() {
+function Header(props) {
     const [collapsed, setCollapsed] = useState(true);
 
     const toggleNavbar = () => setCollapsed(!collapsed);
@@ -15,18 +17,10 @@ function Header() {
 
                 <Collapse isOpen={!collapsed} navbar>
                     <Nav navbar>
-                        <NavItem>
-                            <NavLink href="/about/">About</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="/portfolio/">Portfolio</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="https://drive.google.com/file/d/1wJNz1F6k_fdF96dHhPBqXjC9Bm1QSn14/view" target="_blank">Resume</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="/contact/">Contact</NavLink>
-                        </NavItem>
+                        <NavBar />
+                        <Route exact path="/about" component={props.About} />
+                        <Route exact path="/portfolio" component={props.Portfolio} />
+                        <Route exact path="/contact" component={props.Contact} />
                     </Nav>
                 </Collapse>
 

@@ -1,11 +1,8 @@
 import React from 'react';
-import { useLocation } from "react-router-dom";
 import { HashLink as Link } from 'react-router-hash-link';
 import { NavItem, NavLink } from 'reactstrap';
 
 function NavBar() {
-    const location = useLocation();
-
     return (
         <>
             <NavItem>
@@ -25,3 +22,6 @@ function NavBar() {
 }
 
 export default NavBar;
+
+// Resources
+// React Router Hash Link - https://github.com/rafgraph/react-router-hash-link

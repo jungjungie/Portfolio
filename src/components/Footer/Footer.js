@@ -1,21 +1,13 @@
 import React from 'react';
-import { Row, Col } from 'reactstrap';
+import { Container } from 'reactstrap';
+import './Footer.css';
 
 const Footer = () => {
     return (
-        <footer>
-            <Row>
-                <Col className="text-center"><i className="fa fa-envelope " aria-hidden="true"></i></Col>
-                <Col className="text-center"><i className="fa fa-phone" aria-hidden="true"></i></Col>
-                <Col className="text-center"><i className="fa fa-github " aria-hidden="true"></i></Col>
-                <Col className="text-center"><i className="fa fa-linkedin-square " aria-hidden="true"></i></Col>
-            </Row>
-            <Row>
-                <Col className="text-center">Email</Col>
-                <Col className="text-center">267-679-0661</Col>
-                <Col className="text-center">GitHub</Col>
-                <Col className="text-center">LinkedIn</Col>
-            </Row>
+        <footer id="footer-section">
+            <Container className="text-center d-flex justify-content-center align-items-center">
+                <p className="mb-0">Copyright &copy; Esther Min</p>
+            </Container>
         </footer>
     );
 }

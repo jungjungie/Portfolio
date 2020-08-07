@@ -1,12 +1,13 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import './About.css'
 
 function About() {
     return (
-        <section>
+        <section id="about-section">
             <Container>
-                <Row>
-                    <Col>About Me</Col>
+                <Row className="title-rows">
+                    <Col><h2 className="section-titles"><span id="about-pipe" className="title-pipes">|</span> About Me</h2></Col>
                 </Row>
                 <Row>
                     <Col xs="4">

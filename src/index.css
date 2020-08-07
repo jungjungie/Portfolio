@@ -5,13 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://images.unsplash.com/photo-1554752697-8a9d30e18545?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1882&q=80");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1543747050-1db50a971c00?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+  background-repeat: repeat;
+  background-position: top;
+  /* background-size: cover; */
+  color: #555;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.title-rows {
+  margin-bottom: 50px;
+}
+
+.section-titles { 
+  font-size: 2.5em;
+}
+
+.title-pipes {
+  font-size: 1.2em;
+  font-weight: 400;
 }

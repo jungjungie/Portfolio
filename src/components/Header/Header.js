@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import './Header.css';
 
-function Header(props) {
+function Header() {
     const [collapsed, setCollapsed] = useState(true);
 
     const toggleNavbar = () => setCollapsed(!collapsed);
@@ -9,7 +10,7 @@ function Header(props) {
     return (
         <header>
             <Navbar color="light" light>
-                <NavbarBrand href="/" className="mr-auto">ESTHER MIN</NavbarBrand>
+                <NavbarBrand href="/" className="mr-auto ml-3">ESTHER MIN</NavbarBrand>
                 <NavbarToggler onClick={toggleNavbar} className="mr-2" />
 
                 <Collapse isOpen={!collapsed} navbar>

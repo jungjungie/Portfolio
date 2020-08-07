@@ -2,13 +2,14 @@ import React from 'react';
 import Project from '../Project/Project';
 import { Container, Row, Col } from 'reactstrap';
 import projects from '../../projects.json';
+import './Portfolio.css';
 
 function Portfolio() {
     return (
-        <section>
+        <section id="portfolio-section">
             <Container>
-                <Row>
-                    <Col>Portfolio</Col>
+                <Row className="title-rows">
+                    <Col><h2 className="section-titles"><span id="portfolio-pipe" className="title-pipes">|</span> Portfolio</h2></Col>
                 </Row>
                 <Row className="d-flex flex-column align-items-center">
                     {projects.map(project =>

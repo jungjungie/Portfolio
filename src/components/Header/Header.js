@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import NavTitle from '../NavTitle/NavTitle';
 import NavBar from '../NavBar/NavBar';
 import { Route } from "react-router-dom";
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav } from 'reactstrap';
@@ -12,8 +13,9 @@ function Header(props) {
     return (
         <header>
             <Navbar color="light" light className="fixed-top shadow-sm border-bottom navbar-expand-md">
+                <NavTitle />
+                <Route exact path="/main" component={props["ESTHER MIN"]} />
                 
-                <NavbarBrand href="/" className="mr-auto ml-3">ESTHER MIN</NavbarBrand>
                 <NavbarToggler onClick={toggleNavbar} className="mr-2" />
 
                 <Collapse isOpen={!collapsed} navbar className="justify-content-end">

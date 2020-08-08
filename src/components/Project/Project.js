@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardImg, CardText, CardBody, CardTitle, Container, Row, Col } from 'reactstrap';
+import { Card, CardImg, CardText, CardBody, CardTitle, Row, Col } from 'reactstrap';
 import "./Project.css"
 
 function Project(props) {
@@ -7,7 +7,7 @@ function Project(props) {
         <Card className="mt-2 mb-2 project-cards shadow-sm">
             <Row className="no-gutters align-items-center">
                 <Col xs="12" md="6">
-                    <a href={props["deployed-url"]} target="_blank" rel="noopener noreferrer"><CardImg top width="100%" src={props.image} alt="project snapshot" /></a>
+                    <a href={props["deployed-url"]} target="_blank" rel="noopener noreferrer"><CardImg className="card-imgs" top width="100%" src={props.image} alt="project snapshot" /></a>
                 </Col>
                 <Col xs="12" md="6">
                     <CardBody className="" >

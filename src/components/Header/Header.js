@@ -11,7 +11,7 @@ function Header(props) {
 
     return (
         <header>
-            <Navbar color="light" light className="fixed-top shadow-sm">
+            <Navbar color="light" light className="fixed-top shadow-sm border-bottom">
                 <NavbarBrand href="/" className="mr-auto ml-3">ESTHER MIN</NavbarBrand>
                 <NavbarToggler onClick={toggleNavbar} className="mr-2" />
 

@@ -1,6 +1,26 @@
 [
     {
-        "id": 6,
+        "id": 9,
+        "title": "Employee Directory",
+        "description": "An app built with React that allows users to quickly access their employee contact information.",
+        "tech": "React, Axios, Materialize CSS",
+        "date": "August 2020",
+        "gh-url": "https://github.com/jungjungie/Employee-Directory",
+        "deployed-url": "https://jungjungie.github.io/Employee-Directory/",
+        "image": "images/employeedirectory.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Fitness Tracker",
+        "description": "An app that allows users to track daily workouts",
+        "tech": "Node.js, MongoDB, Mongoose, Express",
+        "date": "August 2020",
+        "gh-url": "https://github.com/jungjungie/Workout-Tracker",
+        "deployed-url": "https://em-workout-tracker.herokuapp.com/",
+        "image": "images/fitnesstracker.jpg"
+    },
+    {
+        "id": 7,
         "title": "Sushi Eater",
         "description": "An app that allows users to input the names of sushi they want to eat and then eat it.",
         "tech": "Node.js, Heroku, Express, Express-handlebars, MySQL, jQuery, Bootstrap",
@@ -10,7 +30,7 @@
         "image": "images/sushieater.jpg"
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Abacus",
         "description": "An app designed to help teachers manage their class grades and assignments.",
         "tech": "Passport, Node.js, Heroku, Express, Express-handlebars, MySQL, Sequelize, jQuery, Bootstrap",
@@ -20,7 +40,7 @@
         "image": "images/abacus.jpg"
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Covid-19 Test Center Locator",
         "description": "A covid-19 test center locator that searches by state.",
         "tech": "HTML, UI Kit, JavaScript, jQuery, AJAX, Chart.js, Google Maps API",
@@ -30,33 +50,43 @@
         "image": "images/covid19.jpg"
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "Code Quiz",
         "description": "A timed multiple-choice quiz on JavaScript fundamentals.",
         "tech": "HTML, CSS, JavaScript",
         "date": "June 2020",
         "gh-url": "https://github.com/jungjungie/Code-Quiz",
         "deployed-url": "https://jungjungie.github.io/Code-Quiz/",
-        "image": "images/codequiz2.jpg"
+        "image": "images/codequiz.jpg"
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "Weather Dashboard",
         "description": "An application that allows users to look up the weather in multiple cities.",
         "tech": "HTML, Bootstrap, CSS, jQuery, AJAX",
         "date": "June 2020",
         "gh-url": "https://github.com/jungjungie/Weather-Dashboard",
         "deployed-url": "https://jungjungie.github.io/Weather-Dashboard/",
-        "image": "images/weather.jpg"
+        "image": "images/weatherdashboard.jpg"
     },
     {
-        "id": 1,
+        "id": 2,
         "title": "Work Day Planner",
         "description": "A calendar application that allows users to save events for each hour of the day.",
         "tech": "HTML, CSS, jQuery, Moment.js",
         "date": "June 2020",
         "gh-url": "https://github.com/jungjungie/Day-Planner",
         "deployed-url": "https://jungjungie.github.io/Day-Planner/",
-        "image": "images/dayplanner2.jpg"
+        "image": "images/workdayplanner.jpg"
+    },
+    {
+        "id": 1,
+        "title": "Password Generator",
+        "description": "A random password generator based on user-specified length and criteria.",
+        "tech": "HTML, CSS, JavaScript",
+        "date": "June 2020",
+        "gh-url": "https://github.com/jungjungie/Password-Generator",
+        "deployed-url": "https://jungjungie.github.io/Password-Generator/",
+        "image": "images/pwgenerator.jpg"
     }
 ]

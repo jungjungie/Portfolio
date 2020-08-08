@@ -10,7 +10,7 @@ function About() {
                     <Col><h2 className="section-titles"><span id="about-pipe" className="title-pipes">|</span> About Me</h2></Col>
                 </Row>
                 <Row>
-                    <Col xs="4">
+                    <Col xs="12" sm="5" md="4" lg="3" className="text-center">
                         <img src="images/profilesnap.png" alt="profile" className="image-fluid mr-md-4 mb-4 rounded shadow-sm float-md-left"/>
                     </Col>
                     <Col>

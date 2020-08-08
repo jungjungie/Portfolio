@@ -1,8 +1,5 @@
 .project-cards {
     max-width: 800px;
-    /* background: #555; */
-    /* background: #240b36; */
-    /* color: white; */
     border: 1px solid #dedede;
     padding: 10px;
 }
@@ -20,10 +17,8 @@
 }
 
 .project-descriptions {
-    /* color: #d8c7ff; */
     color: #a86cc1;
 }
 
 .project-titles, .project-links {
-    /* color: white; */
 }

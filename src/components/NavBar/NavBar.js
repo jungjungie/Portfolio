@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import { NavItem, NavLink } from 'reactstrap';
+import './NavBar.css';
 
 function NavBar() {
     return (

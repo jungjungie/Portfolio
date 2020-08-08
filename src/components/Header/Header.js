@@ -16,7 +16,7 @@ function Header(props) {
                 <NavbarToggler onClick={toggleNavbar} className="mr-2" />
 
                 <Collapse isOpen={!collapsed} navbar>
-                    <Nav navbar>
+                    <Nav navbar onClick={() => setCollapsed(true)}>
                         <NavBar />
                         <Route exact path="/about" component={props.About} />
                         <Route exact path="/portfolio" component={props.Portfolio} />

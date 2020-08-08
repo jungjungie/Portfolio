@@ -1,7 +1,7 @@
 .project-cards {
     max-width: 800px;
     /* background: #555; */
-    background: #0d0208;
+    background: #240b36;
     color: white;
     border: 1px solid #eee;
 }
@@ -13,6 +13,10 @@
 
 .card-text, .project-tech {
     margin-bottom: 20px;
+}
+
+.project-descriptions {
+    color: #d8c7ff;
 }
 
 .project-titles, .project-links {

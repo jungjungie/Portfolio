@@ -12,7 +12,7 @@ function Project(props) {
                 <Col xs="12" md="6">
                     <CardBody className="" >
                         <CardTitle><a className="project-titles" href={props["deployed-url"]} target="_blank" rel="noopener noreferrer">{props.title}</a></CardTitle>
-                        <CardText>{props.description}</CardText>
+                        <CardText className="project-descriptions">{props.description}</CardText>
                         <p className="project-tech">
                             <small>{props.tech}</small>
                         </p>

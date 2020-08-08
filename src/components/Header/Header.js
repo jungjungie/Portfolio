@@ -11,12 +11,13 @@ function Header(props) {
 
     return (
         <header>
-            <Navbar color="light" light className="fixed-top shadow-sm border-bottom">
+            <Navbar color="light" light className="fixed-top shadow-sm border-bottom navbar-expand-md">
+                
                 <NavbarBrand href="/" className="mr-auto ml-3">ESTHER MIN</NavbarBrand>
                 <NavbarToggler onClick={toggleNavbar} className="mr-2" />
 
-                <Collapse isOpen={!collapsed} navbar>
-                    <Nav navbar onClick={() => setCollapsed(true)}>
+                <Collapse isOpen={!collapsed} navbar className="justify-content-end">
+                    <Nav navbar onClick={() => setCollapsed(true)} >
                         <NavBar />
                         <Route exact path="/about" component={props.About} />
                         <Route exact path="/portfolio" component={props.Portfolio} />

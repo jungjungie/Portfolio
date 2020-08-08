@@ -1,24 +1,10 @@
-#contact-section {
-    background: white;
-    padding: 100px 0px;
-}
-
-#contact-pipe {
-    color: #d982b5;
-}
-
-.contact-cards {
-    padding: 50px 0px;
-    border-bottom: 4px solid #b5dcdb;
-}
-
-.contact-cards:hover {
-    border: 1px solid #eee;
+.nav-item {
+    margin-left: 20px;
 }
 
 /* Hover effect credits to https://ianlunn.github.io/Hover/ */
-.hvr-underline-from-center2 {
-    /* display: inline-block; */
+.hvr-underline-from-center {
+    display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
@@ -27,7 +13,7 @@
     overflow: hidden;
 }
 
-.hvr-underline-from-center2:before {
+.hvr-underline-from-center:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -44,7 +30,7 @@
     transition-timing-function: ease-out;
 }
 
-.hvr-underline-from-center2:hover:before, .hvr-underline-from-center2:focus:before, .hvr-underline-from-center2:active:before {
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
     left: 0;
     right: 0;
 }

@@ -6,7 +6,7 @@ import './NavTitle.css';
 function NavTitle() {
     return (
         <NavbarBrand>
-            <Link smooth to="#main-section">ESTHER MIN</Link>
+            <Link smooth to="#home-section">ESTHER MIN</Link>
         </NavbarBrand>
     )
 }

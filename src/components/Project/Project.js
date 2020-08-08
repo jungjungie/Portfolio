@@ -4,7 +4,7 @@ import "./Project.css"
 
 function Project(props) {
     return (
-        <Card className="mt-2 mb-2 project-cards shadow-sm">
+        <Card className="mt-0 mt-md-2 mb-0 mb-md-5 project-cards shadow-sm hvr-grow">
             <Row className="no-gutters align-items-center">
                 <Col xs="12" md="6">
                     <a href={props["deployed-url"]} target="_blank" rel="noopener noreferrer"><CardImg className="card-imgs" top width="100%" src={props.image} alt="project snapshot" /></a>

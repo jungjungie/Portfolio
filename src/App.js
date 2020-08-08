@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header/Header';
-import NavBar from './components/NavBar/NavBar';
-import Main from './components/Main/Main';
+import NavLinks from './components/NavLinks/NavLinks';
+import Home from './components/Home/Home';
 import About from './components/About/About';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
@@ -12,13 +12,13 @@ function App() {
   return (
     <Router>
       <Header>
-        <NavBar>
+        <NavLinks>
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
-        </NavBar>
+        </NavLinks>
       </Header>
-      <Main />
+      <Home />
       <About />
       <Portfolio />
       <Contact />

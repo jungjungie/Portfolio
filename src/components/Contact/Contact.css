@@ -11,6 +11,11 @@
     padding: 50px 0px;
     border-bottom: 4px solid #b5dcdb;
 }
+@media (max-width: 576px) {
+    .contact-cards {
+        margin-bottom: 30px !important;
+    }
+}
 
 .contact-cards:hover {
     border: 1px solid #eee;

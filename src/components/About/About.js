@@ -14,7 +14,7 @@ function About() {
                         <img src="images/profilesnap.png" alt="profile" className="image-fluid mr-md-4 mb-4 rounded shadow-sm float-md-left"/>
                     </Col>
                     <Col>
-                        <p>Hello! My name is Esther Min.</p>
+                        <h2 className="hello-txt">Hello! My name is Esther Min.</h2>
 
                         <p>I'm a full-stack web developer. I am currently enrolled full-time in the UPenn LPS Coding Bootcamp (August 2020 completion).</p>
 

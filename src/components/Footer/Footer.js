@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer id="footer-section">
             <Container className="text-center d-flex justify-content-center align-items-center">
-                <p className="mb-0">Copyright &copy; Esther Min</p>
+                <p className="mb-0">Copyright 2020 &copy; Esther Min</p>
             </Container>
         </footer>
     );

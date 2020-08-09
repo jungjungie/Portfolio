@@ -11,7 +11,7 @@ function Project(props) {
                 </Col>
                 <Col xs="12" md="6">
                     <CardBody className="" >
-                        <CardTitle><a className="project-titles" href={props["deployed-url"]} target="_blank" rel="noopener noreferrer">{props.title}</a></CardTitle>
+                        <CardTitle><a className="project-titles hvr-underline-from-center3" href={props["deployed-url"]} target="_blank" rel="noopener noreferrer">{props.title}</a></CardTitle>
                         <CardText className="project-descriptions">{props.description}</CardText>
                         <p className="project-tech">
                             <small>{props.tech}</small>

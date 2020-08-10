@@ -5,7 +5,7 @@
 I am a full-stack web developer currently enrolled full-time in the UPenn LPS Coding Bootcamp (August 20, 2020 completion). 
 
 Visit my portfolio to see my work!<br>
-https://jungjungie.github.io/Portfolio/
+https://jungjungie.github.io/
 
 ***Built with React, Reactstrap, and mobile-responsive.***
 

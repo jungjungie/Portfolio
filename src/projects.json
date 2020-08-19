@@ -1,5 +1,25 @@
 [
     {
+        "id": 11,
+        "title": "Teach Pod",
+        "description": "A platform built using the MERN-stack that connects teachers and parents to form “pods”, or learning sessions, and provides the ability to set search criteria and message registered users.",
+        "tech": "React, Reactstrap, MongoDB, Mongoose, Express, Node.js, Axios, Bcrypt, Client-sessions, deployed with Heroku, MVC file structure",
+        "date": "August 2020",
+        "gh-url": "https://github.com/jungjungie/Teach-Pod",
+        "deployed-url": "https://teachpod-em.herokuapp.com/",
+        "image": "images/teach-pod.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Google Books Search",
+        "description": "A MERN-stack app that retrieves books based on a user’s search and can save/delete books.",
+        "tech": "React, Reactstrap, Google Books API, Axios, Express, MongoDB, Mongoose, Heroku, MVC file structure",
+        "date": "August 2020",
+        "gh-url": "https://github.com/jungjungie/Google-Books-Search",
+        "deployed-url": "https://em-google-books-search.herokuapp.com/",
+        "image": "images/google-books.jpg"
+    },
+    {
         "id": 9,
         "title": "Employee Directory",
         "description": "An app built with React that allows users to quickly access their employee contact information.",
@@ -30,16 +50,6 @@
         "image": "images/sushieater.jpg"
     },
     {
-        "id": 6,
-        "title": "Abacus",
-        "description": "An app designed to help teachers manage their class grades and assignments.",
-        "tech": "Passport.js, Bcrypt.js, Node.js, Heroku, Express, Express-handlebars, MySQL, Sequelize, jQuery, Bootstrap",
-        "date": "July 2020",
-        "gh-url": "https://github.com/jungjungie/Abacus",
-        "deployed-url": "https://em-abacus.herokuapp.com/",
-        "image": "images/abacus.jpg"
-    },
-    {
         "id": 5,
         "title": "Covid-19 Test Center Locator",
         "description": "A covid-19 test center locator that searches by state.",
@@ -49,7 +59,6 @@
         "deployed-url": "https://jungjungie.github.io/COVID-19-Test-Center-Locator/",
         "image": "images/covid19.jpg"
     },
-    
     {
         "id": 4,
         "title": "Weather Dashboard",

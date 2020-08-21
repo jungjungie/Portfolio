@@ -16,7 +16,7 @@ function About() {
                     <Col>
                         <h2 className="hello-txt">Hello! My name is Esther Min.</h2>
 
-                        <p>I'm a full-stack web developer. I am currently enrolled full-time in the UPenn LPS Coding Bootcamp (August 2020 completion).</p>
+                        <p>I'm a full-stack web developer. I recently graduated from the UPenn LPS Coding Bootcamp, an intensive 12-week-long program dedicated to designing and building web applications, where I learned HTML5, CSS3, JavaScript, jQuery, Bootstrap, Node.js, MySQL, MongoDB, Express, Handlebars, and React.</p>
 
                         <p>My background in hospitality and human resources has given me experience with consulting, data analytics and project work, but my real passion comes from tapping into my creative side. I enjoy problem-solving and bringing code to life for a great user experience!</p>
                     </Col>

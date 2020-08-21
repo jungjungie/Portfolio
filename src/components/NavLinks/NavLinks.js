@@ -13,7 +13,7 @@ function NavLinks() {
                 <Link className="nav-link hvr-underline-from-center" smooth to="#portfolio-section">Portfolio</Link>
             </NavItem>
             <NavItem>
-                <NavLink className="hvr-underline-from-center" href="https://drive.google.com/file/d/1wJNz1F6k_fdF96dHhPBqXjC9Bm1QSn14/view" target="_blank" rel="noopener noreferrer">Resume</NavLink>
+                <NavLink className="hvr-underline-from-center" href="https://drive.google.com/file/d/1_jCz2cJW6Na67SkA8J9GfyTWIkeYsgj5/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</NavLink>
             </NavItem>
             <NavItem>
                 <Link className="nav-link hvr-underline-from-center" smooth to="#contact-section">Contact</Link>
